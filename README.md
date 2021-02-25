@@ -1,2 +1,2 @@
-# 42thrust
-42 Thrust's official site.
+# 42 Huskies
+42 Huskies' official site.
