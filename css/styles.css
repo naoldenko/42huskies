@@ -31,6 +31,20 @@ img {
   margin-top: 110px;
 }
 
+#twitch {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  margin-top: 110px;
+}
+
+#facebook {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  margin-top: 110px;
+}
+
 div {
   display: flex;
   flex-direction: row;
@@ -53,6 +67,14 @@ div {
   }
 
   #instagram {
+    margin-top: 100px;
+  }
+
+  #twitch {
+    margin-top: 100px;
+  }
+
+  #facebook {
     margin-top: 100px;
   }
 }
