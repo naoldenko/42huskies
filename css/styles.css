@@ -1,0 +1,58 @@
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#logo {
+  height: 450px;
+  width: 450px;
+  margin-top: 6%;
+}
+
+#twitter {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  margin-top: 110px;
+}
+
+#youtube {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  margin-top: 110px;
+}
+
+#instagram {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  margin-top: 110px;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #logo {
+    width: 300px;
+    height: 300px;
+    margin-top: 140px;
+  }
+
+  #twitter {
+    margin-top: 100px;
+  }
+
+  #youtube {
+    margin-top: 100px;
+  }
+
+  #instagram {
+    margin-top: 100px;
+  }
+}
