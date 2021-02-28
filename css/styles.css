@@ -8,16 +8,22 @@ img {
   display: block;
 }
 
+#slash {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -1px;
+}
+
 #logo {
-  height: 450px;
-  width: 450px;
+  height: 400px;
+  width: 525px;
   margin-top: 6%;
 }
 
 #logo-two{
-  height: 450px;
-  width: 450px;
-  margin-top: -100px;
+  height: 350px;
+  width: 475px;
+  margin-top: -2%;
 }
 
 span {
@@ -70,8 +76,8 @@ span {
   margin-right: auto;
   text-decoration: none;
   color: black;
-  margin: 10px;
   font-size: 30px;
+  margin: 10px;
   font-weight: bold;
 }
 
@@ -87,8 +93,8 @@ ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  margin-top: -20px;
   justify-content: center;
-  margin-top: -100px;
 }
 
 #go-back {
@@ -105,7 +111,7 @@ ul {
   width: 40%;
   text-align: center;
   font-size: 25px;
-  margin-top: -100px;
+  margin-top: -60px;
 }
 
 #naol {
@@ -139,8 +145,8 @@ ul {
 
 @media only screen and (max-width: 600px) {
   #logo {
-    width: 300px;
-    height: 300px;
+    height: 250px;
+    width: 325px;
     margin-top: 140px;
   }
 
@@ -165,9 +171,10 @@ ul {
   }
 
   #logo-two {
-    width: 360px;
-    height: 360px;;
+    height: 250px;
+    width: 325px;
   }
+
 #about-us {
   width: 90%;
   font-size: 25px;
@@ -201,7 +208,7 @@ ul {
 }
 
 ul {
-  margin-top: -70px;
+  margin-top: -20px;
 }
 
 .position {
