@@ -105,6 +105,10 @@ ul {
   color: black;
 }
 
+.mieso:hover {
+  color: #38b6ff;
+}
+
 #about-us {
   margin-left: auto;
   margin-right: auto;
