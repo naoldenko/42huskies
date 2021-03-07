@@ -13,7 +13,7 @@ img {
   font-weight: bold;
   margin-top: -1px;
 }
-
+/*
 #logo {
   height: 400px;
   width: 525px;
@@ -24,6 +24,19 @@ img {
   height: 350px;
   width: 475px;
   margin-top: -2%;
+}
+*/
+
+#logo {
+  height: 400px;
+  width: 400px;
+  margin-top: 6%;
+}
+
+#logo-two {
+  height: 350px;
+  width: 350px;
+  margin-top: 6%;
 }
 
 span {
@@ -88,12 +101,21 @@ span {
 .nav-m:hover {
   color: #38b6ff;
 }
-
+/*
 ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   margin-top: -20px;
+  justify-content: center;
+}
+*/
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: -90px;
   justify-content: center;
 }
 
@@ -148,10 +170,17 @@ ul {
 }
 
 @media only screen and (max-width: 600px) {
-  #logo {
+/*  #logo {
     height: 250px;
     width: 325px;
     margin-top: 140px;
+  }
+*/
+
+  #logo {
+    height: 350px;
+    width: 350px;
+    margin-top: 20%;
   }
 
   #twitter {
@@ -173,11 +202,18 @@ ul {
   #facebook {
     margin-top: 100px;
   }
-
+/*
   #logo-two {
     height: 250px;
     width: 325px;
   }
+*/
+
+#logo-two {
+  height: 300px;
+  width: 300px;
+  margin-top: -10%;
+}
 
 #about-us {
   width: 90%;
@@ -212,7 +248,7 @@ ul {
 }
 
 ul {
-  margin-top: -20px;
+  margin-top: -90px;
 }
 
 .position {
