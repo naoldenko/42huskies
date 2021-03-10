@@ -131,6 +131,14 @@ ul {
   color: #38b6ff;
 }
 
+.david-links {
+  color: black;
+}
+
+.david-links:hover {
+  color: #38b6ff;
+}
+
 #about-us {
   margin-left: auto;
   margin-right: auto;
@@ -157,6 +165,14 @@ ul {
 }
 
 #udai {
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  text-align: center;
+  font-size: 20px;
+}
+
+#david {
   margin-left: auto;
   margin-right: auto;
   width: 45%;
@@ -231,6 +247,11 @@ ul {
 }
 
 #udai {
+  width: 90%;
+  font-size: 20px;
+}
+
+#david {
   width: 90%;
   font-size: 20px;
 }
