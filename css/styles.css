@@ -1,5 +1,7 @@
 body {
-  font-family: "Cabin", sans-serif;
+  /* font-family: "Cabin", sans-serif; */
+  font-family: 'Lacquer', cursive;
+  
 }
 
 img {
@@ -8,8 +10,12 @@ img {
   display: block;
 }
 
+#vid {
+  margin-top: 2%;
+}
+
 #slash {
-  font-size: 30px;
+  font-size: 45px;
   font-weight: bold;
   margin-top: -1px;
 }
@@ -82,6 +88,11 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: -30px;
+}
+
+#nav {
+  margin-top: 85px;
 }
 
 .nav-m {
@@ -89,13 +100,13 @@ span {
   margin-right: auto;
   text-decoration: none;
   color: black;
-  font-size: 30px;
+  font-size: 45px;
   margin: 10px;
   font-weight: bold;
 }
 
 .social-m {
-  margin: 5px;
+  margin: 2px;
 }
 
 .nav-m:hover {
@@ -268,11 +279,19 @@ ul {
   width: 250px;
 }
 
+#slash {
+  font-size: 26px;
+}
+
 .nav-m {
-  font-size: 25px;
+  font-size: 26px;
   margin-left: auto;
   margin-right: auto;
   margin: 10px;
+}
+
+#socials {
+ margin-top: 10px;
 }
 
 ul {
@@ -280,6 +299,12 @@ ul {
 }
 
 .position {
-  font-size: 19px;
+  font-size: 20px;
+}
+
+#vid {
+  width: 350px;
+  height: 350px;
+  margin-top: 50%;
 }
 }
